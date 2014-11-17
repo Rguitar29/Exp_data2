@@ -11,4 +11,4 @@ data_city$City<-ifelse(data_city$City=="24510","Baltimore","LA")
 data_city$City=factor(data_city$City)
 png(filename="plot7.png",width=480,height=480)
 qplot(x=Year,y=Emission,data=data_city,color=City,geom=c("point","smooth"),method="loess",main = "Total Emissions from 1999 to 2008",ylab ="Total Emission")
-dev.off()
+dev.off(
