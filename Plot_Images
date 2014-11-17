@@ -1,0 +1,4 @@
+cd C:\Users\rahul_aggarwal06\Desktop\Expdat\Plots
+git add .
+git commit "add folder with pictures"
+git push -u origin master
